@@ -1,0 +1,8 @@
+{
+  "command": [
+    "python",
+    "YOUR_REAL_HFSS_WORKER.py"
+  ],
+  "timeout_seconds": 3600,
+  "notes": "Replace command with actual HFSS worker. No original project provided."
+}

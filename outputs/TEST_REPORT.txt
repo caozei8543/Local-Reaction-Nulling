@@ -1,0 +1,19 @@
+Executed in development environment (not HFSS):
+Python 3.13.5; NumPy 2.3.5; Matplotlib 3.10.8
+Synthetic test fixtures only; paper summary regression uses reported data.
+
+test_bilinear_not_hermitian (test_rn.TestRN.test_bilinear_not_hermitian) ... ok
+test_central_complex_and_symmetry (test_rn.TestRN.test_central_complex_and_symmetry) ... ok
+test_grid_and_merge (test_rn.TestRN.test_grid_and_merge) ... ok
+test_missing_data_not_faked (test_rn.TestRN.test_missing_data_not_faked) ... ok
+test_normalization (test_rn.TestRN.test_normalization) ... ok
+test_optimizer_budget_and_constraints (test_rn.TestRN.test_optimizer_budget_and_constraints) ... ok
+test_paper (test_rn.TestRN.test_paper) ... ok
+test_pipeline (test_rn.TestRN.test_pipeline) ... ok
+test_touchstone (test_rn.TestRN.test_touchstone) ... ok
+test_vna (test_rn.TestRN.test_vna) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 2.993s
+
+OK

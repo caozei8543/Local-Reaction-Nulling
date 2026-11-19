@@ -1,0 +1,9 @@
+{
+  "fields_csv": "fields.csv",
+  "field_metadata_json": "field_metadata.json",
+  "fd_csv": "fd.csv",
+  "finite_csv": "finite.csv",
+  "vna_csv": "vna.csv",
+  "sweeps_csv": "sweeps.csv",
+  "unloaded_bound": null
+}

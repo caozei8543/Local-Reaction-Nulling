@@ -1,0 +1,14 @@
+{
+  "time_convention": "exp(+j*w*t)",
+  "reference_ohm": 50,
+  "excitation_type": "incident_power",
+  "unit_phase": true,
+  "matched_other_port": true,
+  "coordinate_units": "m",
+  "field_units": "V/m",
+  "weight_units": "m^3",
+  "phasor": "peak",
+  "port1_incident_power_w": 1,
+  "port2_incident_power_w": 1,
+  "notes": "TEMPLATE: verify peak/rms and every convention against actual HFSS export before use."
+}

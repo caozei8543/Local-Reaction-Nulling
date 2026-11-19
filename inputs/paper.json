@@ -1,0 +1,27 @@
+{
+  "provenance": "Reported summary values from Robust MIMO Decoupling via Local Reaction Nulling and its supplementary material. No raw simulation or measurement data.",
+  "frequency_hz": 5800000000.0,
+  "reference_ohm": 50,
+  "substrate": {"relative_permittivity": 3.66, "loss_tangent": 0.0037, "thickness_mm": 0.762, "footprint_mm": [40,20]},
+  "window_mm": [9,6,2],
+  "subwindow_mm": [9,3,2],
+  "parameter_order": ["l1","l2","d1","d2","ws","xf","lp"],
+  "bounds_mm": [[0.8,2.2],[0.8,2.2],[0.6,1.8],[0.6,1.8],[1.5,1.9],[4.5,7.0],[10.5,11.5]],
+  "constraints": {"isolation_db_min":20,"reflection_db_max":-15,"radiation_efficiency_min":0.8},
+  "optimization": {"max_iterations":25,"max_evaluations":30,"dlo_training_amplitudes":[-0.1,-0.05,0.05,0.1]},
+  "fd_steps": [0.01,0.005,0.0025],
+  "reported_fd_refinement": {"max_magnitude_difference_percent":2.0,"max_phase_difference_deg":1.5},
+  "reported_rn_reaction_refinement": {"magnitude_difference_percent_less_than":2.0,"phase_difference_deg_less_than":1.0},
+  "reference_derivative_re_im": [0.10,0.05],
+  "rn_subregion_reactions_normalized_re_im": [[0.56085,0.46728],[-0.54469,-0.45543]],
+  "materials": {"51HF":{"eps_real":1.06,"loss_tangent":0.0008},"71HF":{"eps_real":1.106,"loss_tangent":0.0016}},
+  "loads": {"common":["51HF","51HF"],"unequal":["51HF","71HF"]},
+  "measurement": {"cycles":10,"vna":"Keysight N5224B","power_dbm":-10,"if_bandwidth_hz":100,"averages":16,"calibration":"SOLT","nd_means":{"common":0.0125,"unequal":0.0172},"unloaded_variation_upper_bound":0.00008},
+  "rn_nominal_bandwidth_mhz":360,
+  "reported_rn_total_efficiency_percent":85.77,
+  "designs": {
+    "ND": {"geometry_mm":[1.50,1.50,1.40,1.40,1.65,6.00,11.00],"s21_db":-25.3,"s11_db":-18.2,"radiation_efficiency":0.878,"reaction_mag_deg":[1,0],"fd_left_mag_deg":[0.995,0.7],"fd_right_mag_deg":[0.997,-0.5],"sim_finite_ratios":{"common":1,"unequal":1},"meas_finite_ratios":{"common":1,"unequal":1},"higher_order_ratio":{"common":0.13,"unequal":0.15},"meas_isolation_db":24.6,"max_fmin_shift_mhz":[55,55]},
+    "DLO": {"geometry_mm":[1.70,1.30,1.60,1.20,1.65,5.80,11.00],"s21_db":-25.2,"s11_db":-17.9,"radiation_efficiency":0.871,"reaction_mag_deg":[0.660,-12.6],"fd_left_mag_deg":[0.666,-11.9],"fd_right_mag_deg":[0.663,-13.1],"sim_finite_ratios":{"common":0.680,"unequal":0.690},"meas_finite_ratios":{"common":0.708,"unequal":0.724},"higher_order_ratio":null,"meas_isolation_db":24.9,"max_fmin_shift_mhz":[25,25]},
+    "RN": {"geometry_mm":[1.20,1.80,1.10,1.70,1.65,6.20,11.00],"s21_db":-25.0,"s11_db":-18.1,"radiation_efficiency":0.874,"reaction_mag_deg":[0.0200,36.25],"fd_left_mag_deg":[0.0210,35.9],"fd_right_mag_deg":[0.0208,36.6],"sim_finite_ratios":{"common":0.040,"unequal":0.045},"meas_finite_ratios":{"common":0.048,"unequal":0.055},"higher_order_ratio":{"common":0.020,"unequal":0.024},"meas_isolation_db":24.0,"max_fmin_shift_mhz":[2,3]}
+  }
+}

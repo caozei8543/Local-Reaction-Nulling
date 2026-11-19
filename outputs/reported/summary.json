@@ -1,0 +1,57 @@
+{
+  "provenance": "Reported summary values from Robust MIMO Decoupling via Local Reaction Nulling and its supplementary material. No raw simulation or measurement data.",
+  "cancellation": {
+    "sum_re_im": [
+      0.016159999999999952,
+      0.011849999999999972
+    ],
+    "sum_magnitude": 0.02003916415422554,
+    "sum_phase_deg": 36.252300627330804,
+    "a_magnitude": 0.7300022745854974,
+    "b_magnitude": 0.7100025922487889,
+    "phase_separation_deg": 179.89993781991723,
+    "phase_deficit_deg": 0.10006218008277301,
+    "cres": 0.013916039185533961,
+    "imbalance_fraction": 0.9960634163153183
+  },
+  "material_eta_re_im": {
+    "51HF": [
+      0.06000000000000005,
+      -0.0008480000000000001
+    ],
+    "71HF": [
+      0.1060000000000001,
+      -0.0017696000000000003
+    ]
+  },
+  "reference_reaction_SI_re_im": [
+    -0.30991557904348865,
+    0.6198311580869773
+  ],
+  "fd_suppression": {
+    "left": 47.38095238095238,
+    "right": 47.93269230769231
+  },
+  "measured_suppression": {
+    "common": 20.833333333333332,
+    "unequal": 18.181818181818183
+  },
+  "simulated_finite_suppression": {
+    "common": 25.0,
+    "unequal": 22.22222222222222
+  },
+  "rn_total_efficiency_percent": 85.76995120757176,
+  "rn_fractional_bandwidth_percent": 6.206896551724138,
+  "rn_mean_to_reported_unloaded_upper_bound": {
+    "common": 7.5,
+    "unequal": 11.825
+  },
+  "max_fd_relative_error_percent": 5.0390289677479485,
+  "max_differential_common_percent": 1.071288271812961,
+  "notes": [
+    "Table S4/S5/S6/S8 are algebraic reconstructions from rounded reported values. Last digits can differ.",
+    "FD ratios use actual rounded ND FD numerator; finite-load ratios use their own ND denominator.",
+    "Fig. 10 reconstructed plot has no error bars: individual cycles and SD are not in the PDFs.",
+    "No numerical frequency trajectories, field samples, optimization history, or VNA cycles were reconstructed."
+  ]
+}

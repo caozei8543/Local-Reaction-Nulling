@@ -1,0 +1,73 @@
+{
+  "regions_mm": {
+    "La": {
+      "min": [
+        null,
+        null,
+        null
+      ],
+      "max": [
+        null,
+        null,
+        null
+      ],
+      "cells": [
+        18,
+        6,
+        4
+      ]
+    },
+    "Lb": {
+      "min": [
+        null,
+        null,
+        null
+      ],
+      "max": [
+        null,
+        null,
+        null
+      ],
+      "cells": [
+        18,
+        6,
+        4
+      ]
+    },
+    "Ra": {
+      "min": [
+        null,
+        null,
+        null
+      ],
+      "max": [
+        null,
+        null,
+        null
+      ],
+      "cells": [
+        18,
+        6,
+        4
+      ]
+    },
+    "Rb": {
+      "min": [
+        null,
+        null,
+        null
+      ],
+      "max": [
+        null,
+        null,
+        null
+      ],
+      "cells": [
+        18,
+        6,
+        4
+      ]
+    }
+  },
+  "notes": "Fill actual CAD coordinates. Cells are example quadrature resolution only; adapt and refine."
+}

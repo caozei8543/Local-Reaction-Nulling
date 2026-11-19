@@ -1,0 +1,4 @@
+design,reaction_magnitude,reaction_phase_deg,fd_left_magnitude,fd_left_phase_deg,fd_right_magnitude,fd_right_phase_deg,sim_common,sim_unequal
+ND,1.0,0.0,0.995,0.7,0.997,-0.4999999999999999,1,1
+DLO,0.66,-12.599999999999998,0.666,-11.900000000000002,0.663,-13.1,0.68,0.69
+RN,0.02,36.25,0.021000000000000005,35.89999999999999,0.0208,36.6,0.04,0.045
